@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(216, 211, 211);
+  background: url('resources/Accueil1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Roboto',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+all {
+  width: 100%;
+  height: 100%;
+  background: rgb(216, 211, 211);
+  background: url('resources/accueil.jpg');
+  background-size: cover;
+}
